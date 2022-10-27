@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-Node* list_push_back(Node* root, int x) {
+Node* list_push(Node* root, int x) {
 
     if (root == NULL) {
         root = (Node*)malloc(sizeof(Node));
@@ -25,7 +25,7 @@ Node* list_push_back(Node* root, int x) {
     return root;
 }
 
-Node* list_ordered_push_back(Node* root, int x) {
+Node* list_ordered_push(Node* root, int x) {
 
     if (root == NULL) {
         root = (Node*)malloc(sizeof(Node));
