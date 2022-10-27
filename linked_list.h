@@ -8,8 +8,8 @@ struct _Node_ {
 
 typedef struct _Node_ Node;
 
-Node* list_push_back(Node* root, int x);
-Node* list_ordered_push_back(Node* root, int x);
+Node* list_push(Node* root, int x);
+Node* list_ordered_push(Node* root, int x);
 
 void list_insert_x(Node* root, int index, int x);
 void list_insert(Node* root, int index, int x);
